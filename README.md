@@ -1,16 +1,17 @@
 # Instructions to run 
 
-NYU weights path: /Users/harshm/Documents/GitHub/FCRN-DepthPrediction/tensorflow/weights/NYU_ResNet-UpProj.npy
-Test images path: /Users/harshm/Documents/GitHub/FCRN-DepthPrediction/tensorflow/test/DSC02101.jpg
-Command:
+- NYU weights path: /Users/harshm/Documents/GitHub/FCRN-DepthPrediction/tensorflow/weights/NYU_ResNet-UpProj.npy
+- Test images path: /Users/harshm/Documents/GitHub/FCRN-DepthPrediction/tensorflow/test/DSC02101.jpg
+
+- Command:
 python predict.py --model_path=/Users/harshm/Documents/GitHub/FCRN-DepthPrediction/tensorflow/weights/NYU_ResNet-UpProj.npy --image_paths=/Users/harshm/Documents/GitHub/FCRN-DepthPrediction/tensorflow/test/DSC02101.jpg
 
 Resources:
 
-[Original repository](https://github.com/iro-cp/FCRN-DepthPrediction)
-[CoreML advanced - for how to interface with coremltools](https://developer.apple.com/videos/play/wwdc2017/710/)
-[Image editing with depth](https://developer.apple.com/videos/play/wwdc2017/508)
-[Squeezing deep learning to mobile phones - tricks to reduce the size](https://www.slideshare.net/anirudhkoul/squeezing-deep-learning-into-mobile-phones)
+- [Original repository](https://github.com/iro-cp/FCRN-DepthPrediction)
+- [CoreML advanced - for how to interface with coremltools](https://developer.apple.com/videos/play/wwdc2017/710/)
+- [Image editing with depth](https://developer.apple.com/videos/play/wwdc2017/508)
+- [Squeezing deep learning to mobile phones - tricks to reduce the size](https://www.slideshare.net/anirudhkoul/squeezing-deep-learning-into-mobile-phones)
 
 
 TODO:
